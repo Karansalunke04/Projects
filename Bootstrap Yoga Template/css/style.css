@@ -1,0 +1,200 @@
+/* a{
+    text-decoration: none;
+} */
+li{
+    list-style-type: none;
+} 
+.section1{
+    height: 600px;
+    width: 100%;
+    background-image:linear-gradient(to right, rgba(246, 200, 215, 0.347),rgba(253, 253, 253, 0)), url(../images/background/bg_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.logo{
+    font-family: "Work Sans", Arial, sans-serif;
+}
+.logo-img img{
+    height: 25px;
+}
+.sec1-btn{
+    background-color: #d291bc;
+}
+/* nav section end */
+
+/* Section1  */
+.sec1-p{
+    width: 90%;
+    font-size: 50px;
+}
+/* Section1 End  */
+
+/* Section2 */
+
+.section2{
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/background/intro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.list li{
+    list-style-type: disc;
+    color: #d291bc;
+}
+.sec2-p{
+    font-size: 28px;
+}
+.sec2-p2{
+    line-height: 30px;
+}
+.sec2-div1{
+    width: 100%;
+}
+/* Section2 End  */
+
+/* Section3  */
+
+.section3{
+    height: 450px;
+    background-color: #D291BC;
+}
+
+.sec3-div1{
+    position: relative;
+    top: 60px;
+}
+.sec3-div2{
+    position: relative;
+    top: 170px;
+}
+/* Section3 End  */
+
+/* Section card  */
+
+.card-p{
+    color: #D291BC;
+}
+.btn-card{
+    width: 50%;
+    background-color: #D291BC;
+}
+/* Section card  */
+
+/* Section5  */
+
+.section5{
+    width: 100%;
+    background-image:linear-gradient(to right, rgba(248, 134, 172, 0.521),rgba(245, 174, 207, 0.251)), url(../images/background/bg_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sec5-p{
+    font-size: 50px;
+}
+.sec5-p2{
+    font-size: 14px;
+}
+/* Section5 End  */
+
+
+@media (min-width:768px){
+
+/* Section1  */
+.section1{
+    height: 650px;
+}
+.sec1-p{
+    width: 50%;
+    font-size: 80px;
+}
+/* Section1  */
+
+/* Section2   */
+
+.section2{
+    height: 1000px;
+}
+.sec2-p{
+    font-size: 60px;
+}
+.sec2-p2{
+    width: 90%;
+}
+.sec2-div1{
+    width: 50%;
+}
+/* Section2 End  */
+
+/* Section3   */
+
+.section3{
+    height: 400px;
+}
+/* Section3 End  */
+
+/* Section Card  */
+
+.btn-card{
+    background-color: #D291BC;
+    width: 75%;
+}
+/* Section Card End  */
+
+}
+
+@media (min-width:992px){
+
+/* Section1  */
+.section1{
+    height: 585px;
+}
+/* Section1  */
+
+/* Section2   */
+
+.section2{
+    height: 870px;
+}
+.sec2-p2{
+    width: 50%;
+}
+.sec2-p{
+    font-size: 70px;
+}
+/* Section2 End  */
+
+/* Section3   */
+
+.section3{
+    height: 350px;
+}
+/* Section3 End  */
+
+/* Section5  */
+
+.section5{
+    height: 400px;
+}
+.sec5-div{
+    position: relative;
+    top: 80px;
+}
+/* Section5 End  */
+
+/* Section Card  */
+
+.card-1{
+    width: 25%;
+}
+.btn-card{
+    background-color: #D291BC;
+    width: 50%;
+}
+/* Section Card End  */
+   
+}
