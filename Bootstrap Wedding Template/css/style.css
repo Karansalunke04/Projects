@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+/* Header section  */
+
+.logo p{
+    font-family: "Sacramento", cursive;
+    font-size: 40px;
+}
+
+.button{
+    font-size: 30px;
+    background: transparent;
+    border: none;
+}
+
+.header-sec{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.443),rgba(0, 0, 0, 0.438)), url(../images/background/img_bg_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.test{
+    background-color: #CB497F;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.name h2{
+    font-family: "Sacramento", cursive;
+    font-size: 30px;
+}
+
+.test h2 {
+    position: relative;
+    top: 25px;
+    font-size: 25px;
+}
+
+.test p{
+    position: relative;
+    top: 25px;
+    font-size: 12px;
+}
+
+.date{
+    color:  #CB497F;
+    width: 160px;
+}
+
+.nav1-font{
+    font-size: 14px;
+}
+
+/* Header section End  */
+
+/* Section1  */
+
+.section1{
+    height: 1150px;
+}
+
+.hello h2{
+    font-family: "Sacramento", cursive;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #F14E95;
+}
+
+.hello-p0{
+    font-family: "Work Sans", Arial, sans-serif;
+}
+
+.hello-p1{
+    font-size: 18px;
+    color: grey;
+}
+
+.hello-p2{
+    font-family: "Sacramento", Arial, serif;
+    color: #F14E95;
+    font-size: 30px;
+}
+
+.hello-p3{
+    color: #828282;
+    font-family: "Work Sans", Arial, sans-serif;
+}
+
+.hello-img1{
+    height: 50%;
+    width: 50%;
+}
+
+.hello-img2{
+    height: 50%;
+    width: 50%;
+}
+
+.para{
+    margin: 0 auto;
+}
+
+/* Section1 End  */
+
+/* Section2  */
+
+.section2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.443),rgba(0, 0, 0, 0.438)), url(../images/background/img_bg_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1400px;
+    width: 100%;
+}
+
+.event-h2{
+    font-family: "Sacramento", cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.event-p{
+    font-family: sans-serif;
+}
+
+/* Section2 End  */
+
+/* Section3   */
+
+.story-h2{
+    font-family: "Sacramento", cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: #F14E95;
+}
+
+.story-p{
+    font-family: sans-serif;
+    color: grey;
+}
+
+.story-meet{
+    font-size: 24px;
+}
+
+.meet-img{
+    width: 75%;
+}
+
+/* Section3 End  */
+
+/* Section4  */
+
+.section4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.443),rgba(0, 0, 0, 0.438)), url(../images/background/img_bg_5.jpg);
+    height: 600px;
+}
+
+.count-p {
+    width: 100%;
+    height: 50px;
+}
+.count-p i {
+    color: #F14E95;
+}
+.sec-4{
+    position: relative;
+    top: 10px;
+}
+
+/* Section4 End  */
+
+/* Section5   */
+
+.section5{
+    background-color: #F5F5F5;
+    height: 550px;
+}
+
+.gallery-p{
+    font-family: sans-serif;
+    color: grey;
+}
+
+.gallery-h2{
+    font-family: "Sacramento", cursive;
+    font-size: 40px;
+    color: #F14E95;
+    font-weight: bold;
+}
+
+.span{
+    color: #F14E95;
+}
+
+/* Section5 End  */
+
+/* Section6  */
+
+.section6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.443),rgba(0, 0, 0, 0.438)), url(../images/background/img_bg_4.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec6-p{
+    font-size: 40px;
+    font-family: "Sacramento", cursive;
+    font-weight: bold;
+}
+.btn-bg{
+    background-color: #F14E95;
+}
+
+/* Section6 End  */
+
+@media (min-width:768px){
+
+    /* Section1  */
+
+.section1{
+    height: 650px;
+}
+
+.name h2{
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.hello-img1{
+    height: 150px;
+    width: 150px;
+}
+
+.hello-img2{
+    height: 150px;
+    width: 150px;
+}
+
+.hello-main{
+    order: 1;
+}
+
+/* Section1 End  */
+
+/* Section2  */
+
+.section2{
+    height: 800px;
+}
+
+.event-h2{
+    font-size: 60px;
+}
+
+.events-1{
+    margin-top: 40px;
+}
+
+/* Section2 End */
+
+/* Section3   */
+
+.meet-img{
+    width: 75%;
+}
+
+/* Section3 End  */
+
+/* Section4  */
+
+.sec-4{
+    position: relative;
+    top: 250px;
+}
+
+/* Section4 End  */
+
+/* Section5  */
+
+.section5{
+    height: 650px;
+}
+
+/* Section5 End  */
+
+/* Section6  */
+
+.section6 div{
+    position: relative;
+    top: 60px;
+}
+
+/* Section6 End  */
+
+
+}
+
+@media (min-width:992px){
+
+    /* Section1  */
+
+.section1{
+    height: 500px;
+}
+
+.name h2{
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.heart{
+    background-color: white;
+    color: #F14E95;
+    border-radius: 50%;
+    font-size: 30px;
+    align-items: center;
+}
+
+/* Section1 End  */
+
+/* Section3   */
+
+.meet-img{
+    width: 50%;
+}
+
+/* Section3 End  */
+
+}
